@@ -1,0 +1,1 @@
+Inspired by https://dzone.com/articles/practical-php-patterns/basic/practical-php-patterns-value
