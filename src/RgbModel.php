@@ -28,6 +28,11 @@ final class RgbModel
         return $this->blue;
     }
 
+    public function __toString()
+    {
+        return sprintf('rgb(%d, %d, %d)', $this->red, $this->green, $this->blue);
+    }
+
     public function isEqual(RgbModel $object)
     {
         return $this->getRed()->isEqual($object->getRed())
